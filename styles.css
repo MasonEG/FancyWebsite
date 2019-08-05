@@ -27,6 +27,7 @@ body {
     height: 600px;
     background: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.geekwire.com%2Fwp-content%2Fuploads%2F2018%2F07%2F20180727_Mt_Rainier_516-Pano.jpg&f=1');
     background-attachment: fixed;
+    z-index: -1;
 
 }
 
@@ -35,9 +36,11 @@ body {
     height: 400px;
     background: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fq7rTl136kIQ%2Fmaxresdefault.jpg&f=1');
     background-attachment: fixed;
+    z-index: -1;
 }
 
 .titleBox {
+    z-index: 1;
     display: flex;
     position: sticky;
     top: 0;

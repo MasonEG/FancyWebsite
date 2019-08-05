@@ -1,0 +1,76 @@
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.heading {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    margin-inline-start: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imageContainerA{
+    margin: 0px;
+    width: 100%;
+    height: 600px;
+    background: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.geekwire.com%2Fwp-content%2Fuploads%2F2018%2F07%2F20180727_Mt_Rainier_516-Pano.jpg&f=1');
+    background-attachment: fixed;
+
+}
+
+.imageContainerB {
+    width: 800px;
+    height: 400px;
+    background: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fq7rTl136kIQ%2Fmaxresdefault.jpg&f=1');
+    background-attachment: fixed;
+}
+
+.titleBox {
+    display: flex;
+    position: sticky;
+    top: 0;
+	background: #fffffff2;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.05em;
+    padding: 5px 10px;
+}
+
+a:hover {
+    background-color: lime;
+}
+
+.firstTitleButton {
+    margin-left: 40px;
+}
+
+.textBox {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+.contentContainer {
+    overflow: scroll;
+}
